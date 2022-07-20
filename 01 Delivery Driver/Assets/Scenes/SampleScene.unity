@@ -326,8 +326,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   steeringSpeed: 300
   moveSpeed: 20
-  slowSpeed: 18
-  boostSpeed: 25
+  slowSpeed: 10
+  boostSpeed: 27
 --- !u!50 &296221885
 Rigidbody2D:
   serializedVersion: 4
@@ -361,7 +361,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d0e207086b2ff540a8c7f226df21443, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pickupDelay: 1
+  pickupDelay: 0.3
 --- !u!61 &296221887
 BoxCollider2D:
   m_ObjectHideFlags: 0
